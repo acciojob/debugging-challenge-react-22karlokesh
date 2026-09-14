@@ -3,8 +3,6 @@ import '../styles/App.css';
 
 const App = () => {
   let [count, setCount] = useState(0)
-
-  
   return (
     <div class="ball">
           <h1 class="count" ondoubleclick={() => { alert("cant edit it") }}>{count}</h1>
